@@ -1,4 +1,4 @@
-# Catcher
+# Catcher [![Build Status](https://secure.travis-ci.org/alexeyshockov/catcher.png)](http://travis-ci.org/alexeyshockov/catcher)
 
 ## Goal
 
