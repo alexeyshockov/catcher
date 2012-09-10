@@ -1,0 +1,14 @@
+#!/bin/sh
+
+PATH=/sbin:/usr/sbin:/bin:/usr/bin
+
+case "$1" in
+  restart)
+	invoke-rc.d nginx    reload
+	invoke-rc.d php5-fpm restart
+	;;
+  *)
+	echo "Usage: $SCRIPTNAME {restart}" >&2
+	exit 3
+	;;
+esac

@@ -1,0 +1,7 @@
+Package: catcher
+Version: @version@
+Architecture: all
+Depends: nginx, php5 (>= 5.3.2), php5-fpm, php5-mongo
+Recommends: php5-apc, php5-suhosin
+Maintainer: Alexey Shockov <alexey@shockov.com>
+Description: simple, usable and transparent cache layer

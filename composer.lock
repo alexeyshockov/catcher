@@ -1,0 +1,82 @@
+{
+    "hash": "cf4518358f98b9674b2d4d1651335c67",
+    "packages": [
+        {
+            "package": "doctrine/common",
+            "version": "2.3.0-RC2"
+        },
+        {
+            "package": "doctrine/mongodb",
+            "version": "1.0.0-BETA1"
+        },
+        {
+            "package": "mheap/silex-mongo",
+            "version": "dev-master",
+            "source-reference": "7829dd2a16db75e8cc9775b92a020fb7b919a1e4",
+            "commit-date": "1347213651"
+        },
+        {
+            "package": "pimple/pimple",
+            "version": "dev-master",
+            "alias-pretty-version": "1.0.x-dev",
+            "alias-version": "1.0.9999999.9999999-dev"
+        },
+        {
+            "package": "pimple/pimple",
+            "version": "dev-master",
+            "source-reference": "db836b8cfadc0f39dacafa2bf311a1ab603600bb",
+            "commit-date": "1343051648"
+        },
+        {
+            "package": "silex/silex",
+            "version": "dev-master",
+            "alias-pretty-version": "1.0.x-dev",
+            "alias-version": "1.0.9999999.9999999-dev"
+        },
+        {
+            "package": "silex/silex",
+            "version": "dev-master",
+            "source-reference": "ad563dde113092aa603e2b399d10ea43aece8006",
+            "commit-date": "1347084669"
+        },
+        {
+            "package": "symfony/console",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/event-dispatcher",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/http-foundation",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/http-kernel",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/routing",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/yaml",
+            "version": "v2.1.0"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "doctrine/common": 5,
+        "doctrine/mongodb": 10,
+        "symfony/console": 0,
+        "symfony/event-dispatcher": 0,
+        "symfony/http-foundation": 0,
+        "symfony/http-kernel": 0,
+        "symfony/routing": 0,
+        "symfony/yaml": 0
+    }
+}

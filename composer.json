@@ -1,0 +1,26 @@
+{
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.2",
+
+        "silex/silex": "1.0.*",
+
+        "doctrine/common": "2.3.0-RC2",
+        "doctrine/mongodb": "1.0.0-BETA1",
+
+        "symfony/console": "2.1@stable",
+        "symfony/event-dispatcher": "2.1@stable",
+        "symfony/http-foundation": "2.1@stable",
+        "symfony/http-kernel": "2.1@stable",
+        "symfony/routing": "2.1@stable",
+        "symfony/yaml": "2.1@stable",
+
+        "mheap/silex-mongo": "*"
+    },
+    "require-dev": {
+        "symfony/browser-kit": "2.1.0"
+    },
+    "minimum-stability": "dev"
+}
