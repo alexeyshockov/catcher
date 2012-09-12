@@ -133,7 +133,7 @@ class PageTest extends WebTestCase
         $this->assertTrue($client->getResponse()->headers->has('ETag'));
 
         $client->request('GET', '/pages?url='.urlencode('/companies'), array(), array(), array(
-            'HTTP_IF_MATCH' => $client->getResponse()->headers->get('ETag')
+            'HTTP_IF_NONE_MATCH' => $client->getResponse()->headers->get('ETag')
         ));
 
         $this->assertSame(304, $client->getResponse()->getStatusCode());

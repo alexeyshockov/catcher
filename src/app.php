@@ -28,8 +28,8 @@ $app->get('/pages', function(Request $request) use($app) {
         }
 
         // TODO To settings.
-        if ($request->headers->has('If-Match')) {
-            if ($request->headers->get('If-Match') == $response->headers->get('ETag')) {
+        if ($request->headers->has('If-None-Match')) {
+            if ($request->headers->get('If-None-Match') == $response->headers->get('ETag')) {
                 return new Response('', 304);
             }
         }
