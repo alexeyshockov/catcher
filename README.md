@@ -68,6 +68,10 @@ server {
 }
 ```
 
+For MongoDB in use case of caching you may find useful:
+* keep your database are all in RAM,
+* add TTL to pages collection.
+
 ## Performance
 
 ...
